@@ -8,7 +8,30 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <h1>Morpion</h1>
+    <div class="Container_game">
+        <div class="tableGame">
+            <button data-index="0" class="cell"></button>
+            <button data-index="1" class="cell"></button>
+            <button data-index="2" class="cell"></button>
+            <button data-index="3" class="cell"></button>
+            <button data-index="4" class="cell"></button>
+            <button data-index="5" class="cell"></button>
+            <button data-index="6" class="cell"></button>
+            <button data-index="7" class="cell"></button>
+            <button data-index="8" class="cell"></button>
+        </div>
+        <div class="info_game">
+            <p>Joueur 1 : ✘</p>
+            <p>Joueur 2 : ❍</p>
+
+            <p class="statut"></p>
+            <p>Victoire du joueur 1 : <span class="scoreJ1"></span> </p>
+            <p>Victoire du joueur 2 : <span class="scoreJ2"></span> </p>
+            <button class="restart">Restart</button>
+
+        </div>
+    </div>
 
     <script src="./main.js"></script>
 </body>

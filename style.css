@@ -1,0 +1,46 @@
+body{
+    background-color: #b04e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Container_game{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+.tableGame button {
+    width: 100px;
+    height: 100px;
+    background-color: #b04e4e;
+    border: 2px solid white;
+    font-weight: bolder;
+    font-size: 37px;
+    color: white;
+}
+.tableGame{
+    border: 2px solid white;
+    border: 2px solid white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.restart{
+    background-color: white;
+    color: #b04e4e;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.info_game{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.statut{
+    font-weight: 700;
+
+}
